@@ -1,0 +1,23 @@
+.sidebar {
+    li {
+        a {
+            @apply text-gray-600 w-full text-xs uppercase py-3 font-bold block inline-flex px-4 items-center;
+            i {
+                @apply mr-4;
+            }
+        }
+        a:hover {
+            @apply text-gray-900 bg-gray-200;
+        }
+
+        .router-link-active {
+            @apply text-primary-800 bg-primary-200;
+            i {
+                @apply text-primary-800;
+            }
+        }
+        .router-link-active:hover {
+            @apply text-primary-800;
+        }
+    }
+}

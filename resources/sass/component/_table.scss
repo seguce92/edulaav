@@ -1,0 +1,22 @@
+.table {
+    @apply align-middle inline-block min-w-full overflow-hidden border-b border-gray-200;
+    table {
+        @apply bg-white min-w-full;
+        thead {
+            th {
+                @apply px-6 py-3 border-b border-gray-200 bg-gray-100 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider;
+            }
+        }
+        tbody {
+            @apply bg-white;
+            tr {
+                &:hover {
+                    @apply bg-gray-200;
+                }
+                td {
+                    @apply px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-gray-700 text-sm;
+                }
+            }
+        }
+    }
+}

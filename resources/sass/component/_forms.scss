@@ -1,0 +1,20 @@
+.input-form {
+    @apply px-3 py-3 text-gray-700 relative bg-white rounded text-sm shadow outline-none w-full;
+}
+.input-form:focus {
+    @apply outline-none shadow-outline;
+}
+
+.input-form-small {
+    @apply px-2 py-1 text-gray-700 relative bg-white rounded text-sm shadow outline-none w-full;
+}
+.input-form-small:focus {
+    @apply outline-none shadow-outline;
+}
+
+.input-form-large {
+    @apply px-3 py-4 text-gray-700 relative bg-white rounded text-base shadow outline-none w-full;
+}
+.input-form-large:focus {
+    @apply outline-none shadow-outline w-full;
+}

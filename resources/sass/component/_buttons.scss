@@ -1,0 +1,51 @@
+.btn {
+    @apply bg-primary-600 text-white font-bold uppercase text-sm px-6 py-3 rounded shadow outline-none mr-1 mb-1;
+}
+.btn:hover {
+    @apply shadow-lg;
+}
+.btn:focus {
+    @apply outline-none;
+}
+.btn:active {
+    @apply bg-primary-600;
+}
+
+.btn-small {
+    @apply bg-primary-600 text-white font-bold uppercase text-xs px-4 py-2 rounded shadow outline-none mr-1 mb-1;
+}
+.btn-small:hover {
+    @apply shadow-md bg-primary-500;
+}
+.btn-small:focus {
+    @apply outline-none;
+}
+.btn-small:active {
+    @apply bg-primary-600;
+}
+
+.btn-outline {
+    @apply text-primary-800 bg-transparent border border-solid border-primary-800 font-bold uppercase text-sm px-6 py-3 rounded outline-none mr-1 mb-1;
+}
+.btn-outline:hover {
+    @apply bg-primary-800 text-white;
+}
+.btn-outline:focus {
+    @apply outline-none;
+}
+.btn-outline:active {
+    @apply bg-primary-900;
+}
+
+.btn-small-outline {
+    @apply text-primary-800 bg-transparent border border-solid border-primary-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none mr-1 mb-1;
+}
+.btn-small-outline:hover {
+    @apply bg-primary-800 text-white;
+}
+.btn-small-outline:focus {
+    @apply outline-none;
+}
+.btn-small-outline:active {
+    @apply bg-primary-900;
+}

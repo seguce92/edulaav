@@ -1,0 +1,87 @@
+@import 'component/animate';
+
+@import 'component/sidebar';
+
+@import 'component/table';
+
+@import 'component/buttons';
+
+@import 'component/forms';
+
+@import "~balloon-css/src/balloon";
+
+@import "component/loading";
+
+@import "component/pattern";
+
+@import "component/codemirror";
+
+@import "component/github-markdown";
+
+@responsive { 
+    .ml-sidebar {
+        margin-left: 19rem;
+    }
+    .w-sidebar {
+        width: 19rem;
+    }
+    .text-xss {
+        font-size: 0.6rem;
+        @apply text-gray-500;
+    }
+    .text-xss:hover {
+        @apply text-gray-700;
+    }
+    .min-h-modal {
+        min-height: calc(100vh - 57px);
+    }
+    .max-h-modal {
+        max-height: calc(100vh - 57px);
+    }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*.embed-responsive, 
+embed, 
+iframe,
+object,
+video {
+    @apply relative;
+
+}*/
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    min-height: 100vh;
+   
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object,
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      border: 0;
+    }
+}
+iframe,
+embed,
+object,
+video {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
