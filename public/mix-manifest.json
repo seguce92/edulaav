@@ -1,8 +1,8 @@
 {
-    "/js/backend.js": "/js/backend.js",
-    "/css/app.css": "/css/app.css",
-    "/js/board.js": "/js/board.js",
-    "/js/learn.js": "/js/learn.js",
-    "/js/manifest.js": "/js/manifest.js",
-    "/js/vendor.js": "/js/vendor.js"
+    "/js/manifest.js": "/js/manifest.js?id=7db827d654313dce4250",
+    "/js/vendor.js": "/js/vendor.js?id=866aaa957b1a164ba29f",
+    "/js/backend.js": "/js/backend.js?id=fd5ff287a955139f6773",
+    "/css/app.css": "/css/app.css?id=0b0a97d8c9da63d054e2",
+    "/js/board.js": "/js/board.js?id=ddd1d8da799db28d8410",
+    "/js/learn.js": "/js/learn.js?id=a0dfb0e1112733973985"
 }

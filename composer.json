@@ -9,6 +9,13 @@
         "lms",
         "laravel"
     ],
+    "authors": [
+        {
+            "name": "Sergio G. Cruz Espinoza",
+            "email": "seguce92@gmail.com",
+            "homepage": "https://sergiocruzes.com/"
+        }
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
